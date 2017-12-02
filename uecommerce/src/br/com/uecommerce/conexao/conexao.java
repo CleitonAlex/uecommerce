@@ -11,7 +11,7 @@ public class conexao {
 		Connection con = null;
 		try {
 			Class.forName("org.postgresql.Driver");
-			con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/uecommerce", "postgres", "84424671");
+			con = DriverManager.getConnection("jdbc:postgresql://tantor.db.elephantsql.com:5432/nympecau", "nympecau", "za31ogtpJcvu9Clhq4-qDtOm2YLlYR68");
 			System.out.println("conectado com sucesso");
 		} catch (SQLException e) {
 			System.out.println("Erro -conexão" + e.getMessage());
